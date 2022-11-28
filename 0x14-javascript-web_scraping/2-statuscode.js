@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 const request = require('request');
-let myurl = process.argv[2];
+const myurl = process.argv[2];
 
 request(myurl, function (error, response) {
   if (error) {
